@@ -26,8 +26,9 @@ fun main(args: Array<String>) {
         Random.nextInt(0, 101)
     }
 
+    println("Array: ${array.joinToString()}")
     val insertionSort = InsertionSort()
     val (sorted, time) = insertionSort.sort(array)
-    println("Time: $time")
     println("Sorted: ${sorted.joinToString()}")
+    println("Time: $time")
 }

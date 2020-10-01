@@ -34,6 +34,6 @@ fun main(args: Array<String>) {
     val sort = SelectionSort()
     println("Array: ${array.joinToString()}")
     val (sorted, time) = sort.sort(array)
-    println("Time: $time")
     println("Sorted: ${sorted.joinToString()}")
+    println("Time: $time")
 }
